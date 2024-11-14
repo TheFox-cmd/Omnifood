@@ -1,0 +1,98 @@
+/* ---------- */
+/* Form Title */
+/* ---------- */
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.form-title {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* ----------- */
+/* Submit Form */
+/* ----------- */
+.form-grid {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  gap: 24px;
+  width: 40%;
+}
+
+.form-group {
+  display: contents;
+}
+
+label {
+  grid-column: 1;
+}
+
+input {
+  grid-column: 2;
+  height: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+select {
+  grid-column: 2;
+  height: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-appearance: none;
+}
+
+textarea {
+  grid-column: 2;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-news {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: auto;
+  margin-right: 10px;
+}
+
+.send {
+  grid-column: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+
+  button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    background-color: var(--primary-color);
+    border-style: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--secondary-color);
+    }
+  }
+}

@@ -1,0 +1,152 @@
+primary color: #e67e22
+dimmed color: #cf6d17;
+
+icon library:  
+ionicons v2
+https://ionicons.com/v2/
+
+embed the link to the head:
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css"
+  integrity="sha512-JApjWRnfonFeGBY7t4yq8SWr1A6xVYEJgO/UMIYONxaR3C9GETKUg0LharbJncEzJF5Nmiv+Pr5QNulr81LjGQ=="
+  crossorigin="anonymous"
+/>
+
+usage:
+<i class="ion-ios-infinite-outline"></i>
+
+icons used: 
+ion-ios-infinite-outline
+ion-ios-stopwatch-outline
+ion-ios-nutrition-outline
+ion-ios-cart-outline
+ion-social-twitter
+ion-social-facebook
+ion-social-googleplus
+ion-social-instagram
+ion-ios-star
+ion-ios-person
+
+font: google fonts lato 
+<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+
+font color: #555
+
+
+navs: 
+Food delivery
+How it works
+Our cities
+Sign up
+
+hero:
+Goodbye junk food.
+Hello super healthy meals
+
+button text:
+I'm hungry
+Show me more
+
+second title:
+Get food fast &mdash; not fast food
+description:
+Hello, we're Omnifood, your new premium food delivery service.Â We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
+
+four blocks description:
+Up to 365 days/year
+Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+
+Ready in 20 minutes
+You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+
+100% organic
+All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+
+Order anything
+We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+
+
+How it works section:
+Title: How it works &mdash; Simple as 1, 2, 3
+Choose the subscription plan that best fits your needs and sign up today.
+Order your delicious meal using our mobile app or website. Or you can even call us!
+Enjoy your meal after less than 20 minutes. See you the next time!
+
+cities section:
+title: WE'RE CURRENTLY IN THESE CITIES
+LISBON
+ 1600+ happy eaters
+ 60+ top chefs
+ @omnifood_lx
+
+SAN FRANCISCO
+ 3700+ happy eaters
+ 160+ top chefs
+ @omnifood_sf
+
+BERLIN
+2300+ happy eaters
+110+ top chefs
+@omnifood_berlin
+
+LONDON
+ 1200+ happy eaters
+ 50+ top chefs
+ @omnifood_london
+
+ review section:
+ title: OUR CUSTOMERS CAN'T LIVE WITHOUT US
+
+use blockquote
+
+ Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+Alberto Duncan
+
+Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+Joana Silva
+
+I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+Milton Chapman
+
+pricing section:
+PREMIUM
+$399 / month
+
+That's only 13.30$ per meal
+
+1 meal every day
+Order 24/7
+Access to newest creations
+Free delivery
+
+PRO
+$149 / month
+
+That's only 14.90$ per meal
+
+1 meal 10 days/month
+Order 24/7
+Access to newest creations
+Free delivery
+
+STARTER
+19$ / meal
+1 meal
+Order from 8 am to 12 pm
+Free delivery
+
+contact section:
+WE'RE HAPPY TO HEAR FROM YOU
+Name
+Placeholder: Your name
+Email
+Placeholder: Your email
+How did you find us? Friends, Search engine, advertisement, other
+
+Newsletter? Yes, please
+Drop us a line
+Place holder: Your message.
+
+footer:
+About us Blog Press iOS App Android App

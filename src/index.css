@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #e67e22; 
+  --secondary-color: #cf6d17; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #555;
+  font-weight: 300;
+  width: 100%;
+}
+
+
+hr {
+  display: block;
+  width: 120px;
+  border: 1px solid var(--primary-color);
+  margin: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+li::before {
+  content: var(--icon, "\2713\0020");
+  padding-right: 10px;
+  color: var(--primary-color);
+}
+
+li.cross {
+  --icon: "\2717\0020"; 
+}

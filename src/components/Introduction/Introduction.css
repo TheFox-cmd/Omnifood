@@ -1,0 +1,63 @@
+/* ------------------ */
+/* Introduction Title */
+/* ------------------ */
+.intro {
+  width: 80%;
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.intro-title {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* ------------------------ */
+/* Introduction Description */
+/* ------------------------ */
+.intro-about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+
+/* ------------------------- */
+/* Introduction Perks Blocks */
+/* ------------------------- */
+.intro-block-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+i {
+  font-size: 55px;
+  color: var(--primary-color);
+}
+
+.intro-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+  width: 15%;
+}
+
+.intro-block-title {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* @media (max-width: 768px) {
+  .intro-block {
+    width: 100%; 
+    margin: 10px; 
+  }
+} */
