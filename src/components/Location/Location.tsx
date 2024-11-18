@@ -83,7 +83,7 @@ const Location = () => {
   return (
     <div className="location">
       {/* Introduction Title */}
-      <div className="location-title">WE'RE CURRENTLY IN THESE CITIES</div>
+      <div className="title">WE'RE CURRENTLY IN THESE CITIES</div>
       <hr />
       {/* Location Cards */}
       <div className="location-card-wrapper">

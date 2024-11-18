@@ -10,11 +10,6 @@
   padding: 100px 0;
 }
 
-.location-title {
-  font-size: 40px;
-  font-weight: 300;
-}
-
 /* -------------- */
 /* Location Cards */
 /* -------------- */
@@ -71,4 +66,15 @@ a {
 
 .ion-social-twitter:hover {
   color: #1da1f2;
+}
+
+@media screen and (max-width: 768px) {
+  .location-card-wrapper {
+    flex-direction: column;
+  }
+
+  .location-card {
+    width: 100%;
+  }
+  
 }

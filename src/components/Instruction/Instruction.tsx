@@ -22,7 +22,7 @@ const Instruction = () => {
   return (
     <>
       <div className="instruction">
-        <div className="instruction-title">
+        <div className="title">
           HOW IT WORKS — SIMPLE AS 1, 2, 3
         </div>
         <hr />

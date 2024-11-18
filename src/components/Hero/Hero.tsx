@@ -1,19 +1,28 @@
 import "./Hero.css";
 import heroImg from "../../assets/hero.jpg";
 import logoWhiteImg from "../../assets/logo-white.png";
+import useWindowSize from "./useWindowSize";
 
 const Hero = () => {
+  const size = useWindowSize();
+
   return (
     <>
       {/* header component */}
       <header>
         <img src={logoWhiteImg} alt="logo.png" />
-        <div className="nav-links">
-          <a href="">FOOD DELIVERY</a>
-          <a href="">HOW IT WORKS</a>
-          <a href="">OUR CITE</a>
-          <a href="">SIGN UP</a>
-        </div>
+        {size === "lg" ? (
+          <div className="nav-links">
+            <a href="">FOOD DELIVERY</a>
+            <a href="">HOW IT WORKS</a>
+            <a href="">OUR CITE</a>
+            <a href="">SIGN UP</a>
+          </div>
+        ) : (
+          <div className="nav-links">
+            <i className="ion-android-menu"></i>
+          </div>
+        )}
       </header>
 
       {/* hero component */}

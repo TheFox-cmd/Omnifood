@@ -35,7 +35,7 @@ const Plan = () => {
   return (
     <div className="plan">
       {/* Customer Title */}
-      <div className="plan-title">START EATING HEALTHY TODAY</div>
+      <div className="title">START EATING HEALTHY TODAY</div>
       <hr />
       {/* Plan Options */}
       <div className="plan-wrapper">

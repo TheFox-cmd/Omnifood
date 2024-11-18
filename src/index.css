@@ -1,20 +1,20 @@
 :root {
-  --primary-color: #e67e22; 
-  --secondary-color: #cf6d17; 
+  --primary-color: #e67e22;
+  --secondary-color: #cf6d17;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #555;
   font-weight: 300;
   width: 100%;
 }
-
 
 hr {
   display: block;
@@ -39,5 +39,53 @@ li::before {
 }
 
 li.cross {
-  --icon: "\2717\0020"; 
+  --icon: "\2717\0020";
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+select {
+  width: 100%;
+  height: auto;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-appearance: none;
+}
+
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
 }

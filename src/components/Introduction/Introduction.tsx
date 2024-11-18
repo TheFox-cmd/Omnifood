@@ -32,7 +32,7 @@ const Introduction = () => {
   return (
     <div className="intro">
       {/* Introduction Title */}
-      <div className="intro-title">GET FOOD FAST — NOT FAST FOOD</div>
+      <div className="title">GET FOOD FAST — NOT FAST FOOD</div>
       <hr />
       {/* Introduction Description */}
       <div className="intro-about-wrapper">

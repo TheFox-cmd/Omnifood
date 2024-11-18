@@ -10,11 +10,6 @@
   padding: 100px 0;
 }
 
-.intro-title {
-  font-size: 40px;
-  font-weight: 300;
-}
-
 /* ------------------------ */
 /* Introduction Description */
 /* ------------------------ */
@@ -36,6 +31,8 @@
   margin-top: 60px;
 }
 
+
+
 i {
   font-size: 55px;
   color: var(--primary-color);
@@ -55,9 +52,13 @@ i {
   margin: 10px 0;
 }
 
-/* @media (max-width: 768px) {
-  .intro-block {
-    width: 100%; 
-    margin: 10px; 
+@media screen and (max-width: 768px) {
+  .intro-block-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
-} */
+
+  .intro-block {
+    width: 100%;
+  }  
+}

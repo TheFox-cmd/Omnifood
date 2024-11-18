@@ -36,6 +36,11 @@ header {
   }
 }
 
+.ion-android-menu {
+  cursor: pointer;
+  color: white;
+}
+
 /* -------------- */
 /* Hero Component */
 /* -------------- */
@@ -54,8 +59,15 @@ header {
 
 .hero-text {
   color: white;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 30px;
+  }
+  
 }
 
 .hero-btn {

@@ -23,7 +23,7 @@ const Customer = () => {
     <>
       <div className="customer">
         {/* Customer Title */}
-        <div className="customer-title">
+        <div className="title">
           OUR CUSTOMERS CAN'T LIVE WITHOUT US
         </div>
         <hr />
